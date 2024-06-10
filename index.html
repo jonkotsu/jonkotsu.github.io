@@ -5,12 +5,11 @@
         <style>
 #hmvideo {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  min-width: 100%; 
-  min-height: 100%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
 }
         </style>
 </head>
@@ -18,8 +17,6 @@
        <video autoplay muted loop id="hmvideo">
         <source src="BG_1_1920_1_1_1.mp4" type="video/mp4">
       </video>
-    background-attachment: fixed;
-    background-position: center;
     </body>
 
 </html>
